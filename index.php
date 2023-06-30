@@ -6,7 +6,7 @@
         <title>Bad Words</title>
     </head>
     <body>
-        <form action="../run.php" method="GET">
+        <form action="../run.php" method="POST">
             <input type="text" name="testo">
             <input type="text" name="parola_da_censurare">
             <input type="submit">
