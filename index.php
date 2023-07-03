@@ -6,9 +6,9 @@
         <title>Bad Words</title>
     </head>
     <body>
-        <form action="../run.php" method="POST">
-            <input type="text" name="testo">
-            <input type="text" name="parola_da_censurare">
+        <form action="../run.php" method="POST" style="display: flex; align-items: flex-start">
+            <textarea type="text" name="testo"></textarea>
+            <input type="text" name="parola_da_censurare" style="margin-left: 1em; margin-right: 1em">
             <input type="submit">
         </form>
     </body>
